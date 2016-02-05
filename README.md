@@ -1,0 +1,2 @@
+# Distributed-File-Editor
+Idea of the project was to create a distributed file editing system where multiple users can edit the same file at the same time, it was achieved using Node.js and WebSockets. Used Amazon S3 for the data store and Amazon Dynamo DB for authentication and authorization. Each client establishes a connection with the server using WebSockets and sends the added content to server, server receives and broadcasts it to all the connected clients as well as updates the file in the data store, and clients receive the changes and updates accordingly. 
