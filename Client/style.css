@@ -1,0 +1,98 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    background: #333;
+    overflow: scroll;
+}
+fieldset {
+    /* background-color: #505050;
+     color: white;
+     align-content: center;
+     align-self: center;*/
+    width: 600px;
+    background: #FFF;
+    padding: 1em;
+    margin: 1em auto;
+    min-height: 300px;
+    border-top: 5px solid #69c773;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.8);
+}
+fieldset#table{
+    /* background-color: #505050;
+     color: white;
+     align-content: center;
+     align-self: center;*/
+    /*width: 600px;*/
+    background: #FFF;
+    padding: 1em;
+    /*margin: 1em auto;*/
+    /*min-height: 300px;*/
+    border-top: 5px solid #69c773;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.8);
+}
+a {
+    color: #F00000;
+}
+
+div{
+    width:155px;
+    margin-top: 2em;
+    margin-left: 2em;
+    color:#F00000;
+    padding: 0.5em;
+    border-top: 3px solid #69c773;
+    background-color: #505050;
+
+}
+
+form {
+    position: fixed;
+    width: 500px;
+    clear: both;
+    top: 30%;
+    left: 45%;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+}
+
+input {
+    width: 100%;
+    clear: both;
+}
+
+table, th, td {
+    padding: 1em;
+    margin-top: 2em;
+    margin-left: 2em;
+    /*background: #FFF;*/
+    border-top: 3px solid #69c773;
+    box-shadow: 0 2px 10px rgba(0,0,0,0);
+    /*border: 1.5px solid white;*/
+    background-color: #505050;
+    color: white;
+    /*width: 5000px;*/
+    /*align-content: center;*/
+    /*align-self: center;*/
+}
+
+
+
+img {
+    width: 200px;
+    height: 200px;
+}
+#textArea {
+    position:fixed;
+    top: 25%;
+    left: 35%;
+    /*width:30em;*/
+    /*height:18em;*/
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    /*border: 1px solid #ccc;*/
+    border: 3px solid #69c773;
+    box-shadow: 0 2px 10px rgba(0,0,0,0);
+
+
+    /*background-color: #f3f3f3;*/
+}
